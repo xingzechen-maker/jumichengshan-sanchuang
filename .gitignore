@@ -1,0 +1,52 @@
+# ---- 系统与编辑器临时文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---- Office 临时锁文件（Office 异常退出后残留）----
+~$*
+~$*.docx
+~$*.pptx
+~$*.xlsx
+~$*.doc
+~$*.ppt
+
+# ---- 环境变量与本地密钥（严禁提交）----
+.env
+.env.*
+!.env.example
+*.local
+secrets/
+
+# ---- Node 生态（本项目为文档仓库，此项为通用防护）----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+.idea/
+
+# ---- Python 生态 ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 构建与缓存产物 ----
+dist/
+build/
+.cache/
+out/
+*.map
+
+# ---- 转换产生的中间文件 ----
+*_converted.pdf
+*.tmp.pdf
+~$转换*.docx
